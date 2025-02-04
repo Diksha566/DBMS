@@ -1,0 +1,97 @@
+insert into Course (COURSE_ID, TITLE, DEPT_NAME, CREDITS) values('CSE-347', 'Database System Concepts','Comp.Sci',3);
+
+insert into Course (COURSE_ID, TITLE, DEPT_NAME, CREDITS) values('EE-181', 'Intro. to  Digital Concepts','Comp.Sci',3);
+
+insert into Course (COURSE_ID, TITLE, DEPT_NAME, CREDITS) values('FIN-201', 'Investment Banking','Finace',3);
+
+insert into Course (COURSE_ID, TITLE, DEPT_NAME, CREDITS) values('HIS-315', 'World History','History',3);
+
+insert into Course (COURSE_ID, TITLE, DEPT_NAME, CREDITS) values('MU-199', 'Music Video Production','Music',3);
+
+insert into Course (COURSE_ID, TITLE, DEPT_NAME, CREDITS) values('PHY_101', 'Physical Principles','Physics',4);
+
+// q4
+
+insert into Prereq (COURSE_ID, PREREQ_ID) values('BIO-301', 'BIO-101');
+
+insert into Prereq (COURSE_ID, PREREQ_ID) values('BIO-399', 'BIO-101');
+
+insert into Prereq (COURSE_ID, PREREQ_ID) values('CS-315', 'CS-101');
+
+insert into Prereq (COURSE_ID, PREREQ_ID) values('CS-319', 'CS-101');
+
+insert into Prereq (COURSE_ID, PREREQ_ID) values('CS-347', 'CS-101');
+
+insert into Prereq (COURSE_ID, PREREQ_ID) values('CS-181', 'PHY-101');
+
+//Q5
+
+insert into Department (DEPT_NAME, BUILDING,BUGET) values('Biology', 'Watson',90000);
+
+insert into Department (DEPT_NAME, BUILDING,BUGET) values('Comp. Sci.', 'Taylor',100000);
+
+insert into Department (DEPT_NAME, BUILDING,BUGET) values('Elec. Eng', 'Taylor',85000);
+
+insert into Department (DEPT_NAME, BUILDING,BUGET) values('Finance', 'Painter',120000);
+
+insert into Department (DEPT_NAME, BUILDING,BUGET) values('History', 'Painter',50000);
+
+insert into Department (DEPT_NAME, BUILDING,BUGET) values('Music', 'Packard',80000);
+
+insert into Department (DEPT_NAME, BUILDING,BUGET) values('Physics', 'Watson',70000);
+
+//q6
+
+insert into Teaches (ID, COURSE_ID, SEC_ID, SEMESTER, YEAR) values(10101, 'CS-101',1,'Fall', 2009);
+
+insert into Teaches (ID, COURSE_ID, SEC_ID, SEMESTER, YEAR) values(10101, 'CS-315',1,'Spring', 2010);
+
+insert into Teaches (ID, COURSE_ID, SEC_ID, SEMESTER, YEAR) values(10101, 'CS-347',1,'Fall', 2009);
+
+insert into Teaches (ID, COURSE_ID, SEC_ID, SEMESTER, YEAR) values(10101, 'CS-347',1,'Fall', 2009);
+
+insert into Teaches (ID, COURSE_ID, SEC_ID, SEMESTER, YEAR) values(76766, 'BIO-301',1,'Summer', 2010);
+
+insert into Teaches (ID, COURSE_ID, SEC_ID, SEMESTER, YEAR) values(83821, 'CS-910',1,'Spring', 2009);
+
+insert into Teaches (ID, COURSE_ID, SEC_ID, SEMESTER, YEAR) values(83821, 'CS-190',2,'Spring', 2009);
+
+insert into Teaches (ID, COURSE_ID, SEC_ID, SEMESTER, YEAR) values(83821, 'CS-319',2,'Spring', 20010);
+
+insert into Teaches (ID, COURSE_ID, SEC_ID, SEMESTER, YEAR) values(98345, 'EE-181',1,'Spring', 2009);
+
+insert into Teaches (ID, COURSE_ID, SEC_ID, SEMESTER, YEAR) values(15151, 'MU-199',1,'Spring', 2010);
+
+insert into Teaches (ID, COURSE_ID, SEC_ID, SEMESTER, YEAR) values(22222, 'PHY-101',1,'Fall', 2009);
+
+insert into Teaches (ID, COURSE_ID, SEC_ID, SEMESTER, YEAR) values(32343, 'HIS-351',1,'Spring', 2010);
+
+insert into Teaches (ID, COURSE_ID, SEC_ID, SEMESTER, YEAR) values(45565, 'CS-101',1,'Spring', 2010);
+
+insert into Teaches (ID, COURSE_ID, SEC_ID, SEMESTER, YEAR) values(45565, 'CS-319',1,'Spring', 2010);
+
+insert into Teaches (ID, COURSE_ID, SEC_ID, SEMESTER, YEAR) values(76766, 'BIO-101',1,'Summer', 2009);
+
+insert into Teaches (ID, COURSE_ID, SEC_ID, SEMESTER, YEAR) values(76766, 'BIO-301',1,'Summer', 2010);
+
+insert into Teaches (ID, COURSE_ID, SEC_ID, SEMESTER, YEAR) values(83821, 'CS-910',1,'Spring', 2009);
+
+insert into Teaches (ID, COURSE_ID, SEC_ID, SEMESTER, YEAR) values(83821, 'CS-190',2,'Spring', 2009);
+
+insert into Teaches (ID, COURSE_ID, SEC_ID, SEMESTER, YEAR) values(83821, 'CS-319',2,'Spring', 20010);
+
+insert into Teaches (ID, COURSE_ID, SEC_ID, SEMESTER, YEAR) values(98345, 'EE-181',1,'Spring', 2009);
+
+
+
+
+
+
+
+create table Teaches(ID number(5), COURSE_ID varchar(10), SEC_ID number(2),SEMESTER varchar(10), YEAR number(4)); 
+
+
+
+
+
+
